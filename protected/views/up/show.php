@@ -31,6 +31,8 @@ document.body.appendChild(shadow);
 
 setTimeout(function() {
   shadow.classList.add('puBlock-shadow-show');
+  
+  localStorage.setItem('puLastShow', +(new Date()));
 }, delay);
 
 puBody.addEventListener('click', function() {

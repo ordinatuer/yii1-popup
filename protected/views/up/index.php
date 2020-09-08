@@ -13,7 +13,5 @@
     puJs.src = '<?=$script?>';
 
     document.body.appendChild(puJs);
-
-    localStorage.setItem('puLastShow', +(new Date()));
   }
 })();
